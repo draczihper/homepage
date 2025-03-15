@@ -21,9 +21,16 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 33
 }
 
+.about-me {
+	background-color: white;
+	display: flex;
+	padding: 2rem;
+	width: 500px;
+}
 
 img {
-	width: 100px;
+	width: 200px;
 }
