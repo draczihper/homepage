@@ -1,36 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 :root {
-	--playfair: "Playfair Display";
-	--roboto: "Roboto";
+    --playfair: 'Playfair Display';
+    --roboto: 'Roboto';
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: var(--roboto);
+    font-family: var(--roboto);
 }
 
 .container {
-	background-color: rgb(0, 200, 255);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 33
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-me {
-	background-color: white;
-	display: flex;
-	padding: 2rem;
-	width: 500px;
+    background-color: white;
+    display: flex;
+    padding: 2rem;
+    width: 500px;
 }
 
 img {
-	width: 200px;
+    width: 200px;
 }
