@@ -15,6 +15,15 @@ body {
     font-family: var(--roboto);
 }
 
+.background {
+    background-color: rgb(20, 153, 190);
+    clip-path: polygon(0% 100%, 100% 40%, 100% 0%, 0% 0%);
+	width: 100vw;
+	height: 70vh;
+	position: absolute;
+	z-index: -1;
+}
+
 .container {
     display: flex;
     align-items: center;
