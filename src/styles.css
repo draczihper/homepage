@@ -36,10 +36,16 @@ body {
     background-color: white;
     box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
     display: flex;
-    padding: 2rem;
     width: 500px;
+    position: relative;
 }
 
-img {
+.about-me img {
     width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.about-me span {
+    position: absolute;
 }
