@@ -25,6 +25,7 @@ body {
 }
 
 .container {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +34,7 @@ body {
 
 .about-me {
     background-color: white;
+    box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
     display: flex;
     padding: 2rem;
     width: 500px;
