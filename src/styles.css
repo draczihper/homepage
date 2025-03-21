@@ -21,6 +21,7 @@ body {
 	width: 100vw;
 	height: 70vh;
 	position: absolute;
+    top: 0;
 	z-index: -1;
 }
 
@@ -31,7 +32,7 @@ body {
 }
 
 .about-me {
-    padding: 3rem;
+    margin: 3rem;
     top: 0;
     border-radius: 3px;
     box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
