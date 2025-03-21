@@ -26,29 +26,34 @@ body {
 
 .container {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: absolute;
     z-index: 3;
 }
 
 .about-me {
-    background-color: white;
+    padding: 3rem;
+    top: 0;
     border-radius: 3px;
-    overflow: hidden;
     box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
     display: flex;
-    width: 500px;
-    height: 200px;
     position: relative;
 }
 
-.about-me + image {
+.image {
+    height: 150px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.image img{
     width: 250px;
     margin: 0;
     padding: 0;
 }
 
+.text {
+    height: 100px;
+}
 
 .about-me span {
     position: absolute;
