@@ -32,6 +32,7 @@ body {
 }
 
 .about-me {
+    width: 500px;
     margin: 3rem;
     top: 0;
     border-radius: 3px;
