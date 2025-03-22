@@ -32,12 +32,11 @@ body {
 }
 
 .about-me {
-    width: 500px;
+    width: 600px;
     margin: 3rem auto;
     top: 0;
     left: 0;
     border-radius: 3px;
-    box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
     display: flex;
 }
 
@@ -54,6 +53,10 @@ body {
 }
 
 .text {
+    display: absolute;
+    top: 0;
+    margin: auto 0;
+    box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
     height: 100px;
 }
 
