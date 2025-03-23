@@ -32,7 +32,7 @@ body {
 }
 
 .about-me {
-    width: 600px;
+    width: 700px;
     margin: 3rem auto;
     top: 0;
     left: 0;
@@ -54,10 +54,9 @@ body {
 
 .text {
     display: absolute;
-    top: 0;
-    margin: auto 0;
+    margin: 40px 0;
     box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
-    height: 100px;
+    height: 300px;
 }
 
 .about-me span {
