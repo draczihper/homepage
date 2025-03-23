@@ -62,10 +62,18 @@ body {
 }
 
 .text h3 {
-    color: #000;
+
+    color: rgba(0, 0, 0);
     margin-bottom: 20px;
     font-family: var(--playfair);
+    font-size: 1.6rem;
+    font-weight: 400;
 }
+
+.text p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
 
 .about-me span {
     position: absolute;
