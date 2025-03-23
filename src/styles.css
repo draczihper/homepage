@@ -53,10 +53,18 @@ body {
 }
 
 .text {
-    display: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 1.6rem;
+    /* position: absolute; */
     margin: 40px 0;
     box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.5);
     height: 300px;
+}
+
+.text h3 {
+    color: #000;
+    margin-bottom: 20px;
+    font-family: var(--playfair);
 }
 
 .about-me span {
